@@ -467,15 +467,12 @@ footer h1{
     
 
     #about{
-        display: flex;
+        height: fit-content;
         margin: 0;
         
     }
-    .about-page{
-        
-        
-    }
-    
+   
+ 
     .skill-page{
         display:flex;
         flex-direction: column;
@@ -486,38 +483,4 @@ footer h1{
         width: 75%;
       }
     
-}
-
-@media only screen and (max-width: 300px) {
-    .welcome-page{
-        display:flex;
-        flex-direction:column;
-    }
-   
-    .greeting{
-        font-size: 60px;
-    }
-   
-    .about-page{
-       
-    }
-
-    #skill{
-        display:flex;
-        position:absolute;
-        margin-top:100px;
-        justify-content: center;
-        
-    }
-    
-    .skill-page{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        border: 1px solid;
-    }
-    .card-page > .card {
-        justify-content: center;
-        width: 75%;
-      }
 }
